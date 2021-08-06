@@ -1,0 +1,643 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Play', sans-serif;
+}
+
+
+.main-area .top-row{
+    width: 100%;
+    height: 8px;
+    background-color: #02716A;
+}
+
+
+/*----------------------------- Top White Menu Bar -------------------------*/
+.main-area .top-bar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    
+}
+//.main-area .top-bar .logo-area
+{
+    display: flex;
+}
+
+.main-area .top-bar .logo-area .logo p i
+{
+    color:#02716A;
+    font-size: 50px;
+}
+
+.main-area .top-bar .time .hr-24
+{
+    color:#06A39A;
+    font-family: Marker Felt, fantasy;
+    font-size: 16px;
+}
+
+.main-area .top-bar .time .p-city
+{
+    font-family: Impact, fantasy;
+    color: #3b4443;
+    font-size: 20px;
+}
+
+.main-area .top-bar .time .b-plumber
+{
+    color:#06A39A;
+    font-family: Impact, fantasy;
+    font-size: 20px;
+}
+//.main-area .top-bar .time .p-city,.main-area .top-bar .time .hr-24
+{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+}
+
+.main-area .top-bar .time .hr-24
+{
+    padding: 15px 0px;
+    font-size: 25px;
+    margin-top: unset;
+}
+
+
+.main-area .top-bar .menu-and-Call
+{
+    display: flex;
+    
+}
+
+.main-area .top-bar .manu-area
+{
+    background-color: #06A39A;
+    //height: 80px;
+    //padding: 10px 30px;
+    height: 48px;
+    margin-right:10px;
+    margin-top:-10px;
+    //margin-left: -30px;
+   
+}
+
+.main-area .top-bar .manu-area .menu-items
+{
+    display:flex;
+    padding: 10px 10px;
+   
+    
+}
+
+.main-area .top-bar .manu-area .menu-items li
+{
+  list-style: none;
+  //padding: 30px 10px;
+}
+
+.main-area .top-bar .manu-area .menu-items .center-item
+{
+    margin: 0px 20px;
+}
+ 
+.main-area .top-bar .manu-area .menu-items li a
+{
+    //position: relative;
+    color:#EEFCF1;
+    font-size: 12px;
+    //font-weight: bold;
+    text-decoration: none;
+    //padding: 30px 0px;
+}
+
+
+
+
+
+.main-area .top-bar .call-area .logo p i
+{
+    color:#02716A;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.main-area .top-bar .call-area .service-7
+{
+    font-size: 17px;
+}
+
+.main-area .top-bar .call-area .phone
+{
+    margin-top: -20px;
+    color:#06A39A;
+    font-size: 17px;
+}
+
+
+
+/*----------------------------- second green Menu Bar -------------------------*/
+
+
+.main-area .green-menu
+{
+
+    width: 100%;
+    background-color: #06A39A;
+    //border: 1px solid red;
+   
+    
+}
+.main-area .green-menu ul
+{
+
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+
+}
+
+.main-area .green-menu ul li
+{
+    list-style: none;
+    border-right: 1px solid #02716A;
+    padding: 0px 10px ;
+
+}
+.main-area .green-menu ul .borderleft
+{
+    border-left: 1px solid #02716A;
+
+}
+
+
+.main-area .green-menu ul li a
+{
+    color:#EEFCF1;
+    font-size: 12px;
+}
+
+/*----------------------------- Hero Image section -------------------------*/
+
+
+.main-area .hero-section
+{
+    position: relative;
+    background-image: url("image/1.jpg");
+    width: 100%;
+    height:100vh;
+    //padding:100px 0px;
+    background-size: cover;
+    margin-top: -15px;
+
+}
+
+.main-area .hero-section .form-section
+{
+    
+    position: absolute;
+    top:7%;
+    right:20%;
+    background-color: white;
+    width: 300px;
+}
+
+.main-area .hero-section .form-section .inner-form
+{
+    padding: 40px 20px;
+
+    
+}
+
+.main-area .hero-section .form-section .inner-form .form-control
+{
+    width: 250px !important;
+}
+
+.main-area .hero-section .form-section .inner-form .btn-primary
+{
+    background-color: #00A198 !important;
+    border: none;
+    padding: 20px 50px ;
+}
+
+.No-extra-charge
+{
+    width: 100%;
+    background-color: #D3FFFC;
+}
+
+
+.main-area .No-extra-charge h3
+{
+  text-align: center;
+  padding: 20px 0px;
+  color:#007069;
+ font-family: 'Black Han Sans', sans-serif;
+ font-weight: bold;
+}
+
+
+
+/*------------------ Card Section srarts--------------------------*/
+
+.main-area .card-section
+{
+    width: 100%;
+    background-color: #ECF4FF;
+    margin-top: -10px;
+}
+
+
+.main-area .card-section .row
+{
+    padding: 80px 0px;
+}
+
+.main-area .card-section .card
+{
+    border-radius: 15px !important;
+    border: none;
+    width: 300px;
+}
+
+
+
+
+.main-area .card-section .row .white-area
+{
+    
+    
+    //position: relative;
+    //display: block;
+    background-color: #FFFFFF;
+    border-radius: 20px !important;
+    //height: 250px;
+    padding: 40px 10px;
+    
+}
+
+.main-area .card-section .row .white-area .ticket 
+{
+    background-color: #007069;
+    width: 100px;
+    height:100px;
+    //position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom:auto;
+    //top:20%;
+        //left:35%;
+        transform: rotate(50deg);
+        box-shadow: -10px -10px #00A198;
+        //transform: translate(-50%,-50%);
+}
+
+//.main-area .card-section .row .white-area .ticket 
+{
+    position: relative;
+}
+
+.main-area .card-section .row .white-area .ticket p
+{
+    color:white;
+    font-size: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    //position: absolute;
+    //top:35%;
+    //left:35%;
+    //top:20%;
+    //left:28%;
+    text-align: center;
+    //transform: translate(-50%,-50%);
+    transform: rotate(-50deg);
+    
+}
+
+//.main-area .card-section .row .white-area
+{
+    position: relative;
+}
+
+.main-area .card-section .row .white-area h3{
+    //position: absolute;
+    //left: 10%;
+    //right: 10%;
+    text-align: center;
+    //bottom: 5%;
+    margin-top:50px;
+    font-weight:bold;
+   
+    color:#007069;
+ font-family: 'Black Han Sans', sans-serif;
+
+}
+
+
+
+/*----------------- testimonial section starts --------------------*/
+
+
+
+.main-area .testimonial-section
+{
+
+    width: 100%;
+
+}
+
+.main-area .testimonial-section .row
+{
+    padding: 100px 0px;
+}
+
+
+
+
+.main-area .testimonial-section .BG-imag 
+{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("image/2.jpg");
+    border: 5px solid rgba(0,112,105,1);
+}
+
+.main-area .testimonial-section .BG-imag .text-area
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    background-image: linear-gradient(rgba(0,112,105,0.9),rgba(0,112,105,0.9));
+}
+
+.main-area .testimonial-section .BG-imag .text-area p
+{
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 30px;
+    padding: 5px 0px ;
+}
+
+.main-area .testimonial-section .text-area-2 
+{
+    margin-top: 30px;
+}
+
+.main-area .testimonial-section .text-area-2 p{
+    font-size: 20px;
+    color:#b7b5b5;
+}
+
+.main-area .testimonial-section .end-text
+{
+    background-color: #00A198;
+    width: 100%;
+}
+
+.main-area .testimonial-section .end-text p{
+    padding: 20px 0px ;
+    text-align: center;
+    font-size: 25px ;
+    color: #FFFFFF;
+  
+}
+
+
+
+.main-area .testimonial-section .crousel-area .customer
+{
+    text-align: center;
+    color:#b7b5b5;
+    font-size: 25px;
+}
+
+.main-area .testimonial-section .crousel-area .testimonial 
+{
+    text-align: center;
+    color:#007069;
+}
+
+
+.main-area .testimonial-section .crousel-area img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #b7b5b5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main-area .testimonial-section .crousel-area i
+{
+    color: #00A198;
+    ;
+    font-size: 30px;
+}
+
+.main-area .testimonial-section .crousel-area .carousel-inner
+{
+    position: relative;
+}
+
+.main-area .testimonial-section .crousel-area .carousel-inner h2
+{
+    margin: 10px 0px ;
+    text-align: center;
+}
+
+.main-area .testimonial-section .crousel-area .carousel-inner .crousel-text
+{
+    text-align: justify;
+    color:#b7b5b5;
+    font-size: 17px;
+}
+
+.fa-arrow-alt-circle-left 
+{
+    position: absolute;
+    top:10%;
+    left:5%
+
+}
+
+.fa-arrow-alt-circle-right
+{
+    position: absolute;
+    top:10%;
+    right:5%
+
+}
+
+.time-section
+{
+    display:flex;
+}
+
+.time-section .fa-history
+{
+    font-size: 70px;
+  color:#007069;
+}
+  
+.time-section .call-side
+{
+    display: block;
+}
+
+.time-section .call-side p{
+    margin: -3px 0px;
+    font-size: 17px;
+}
+
+.time-section .call-side span
+{
+    color:#00A198;
+}
+
+.time-section .call-side .days-7
+{
+    font-size: 35px;
+    color:black;
+    font-weight: bold;
+}
+
+
+/*--------------------- offer section -------------------*/
+
+.offer-section 
+{
+    background-color: #E7F0FD;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.offer-section .offer-card 
+{
+    display: flex;
+
+}
+
+.offer-section .offer-card  p i 
+{
+    margin-right: 30px;
+    font-size: 50px;
+    color:#007069;
+}
+
+.offer-section .offer-card .details-section h2{
+    color: black;
+    font-weight: bold;
+}
+
+.offer-section .offer-card .details-section p{
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+
+    
+.main-area .top-bar .time .hr-24
+{
+    padding: 0px 0px;
+    font-size: 20px;
+    
+}
+
+
+.main-area .top-bar .manu-area
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+    .main-area .top-bar .menu-and-Call
+{
+    display: block;
+    
+}
+
+
+//.main-area .top-bar .manu-area
+{
+   
+    margin-right:auto;
+
+}
+
+
+ 
+.main-area .top-bar .manu-area .menu-items li a
+{
+    font-size: 10px;
+}
+
+
+
+.main-area .top-bar .call-area .logo p i
+{
+    
+    font-size: 30px;
+}
+
+
+.main-area .top-bar .call-area .service-7
+{
+    font-size: 12px;
+}
+
+.main-area .top-bar .call-area .phone
+{
+   
+    font-size: 12px;
+}
+    .main-area .hero-section .form-section
+{
+    position: absolute;
+top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 300px;
+   
+}
+
+.main-area .hero-section
+{
+    padding: 100px 0px;
+    height: 150 vh;
+}
+
+.card-section .card{
+    margin-top: 20px;
+}
+}
