@@ -80,6 +80,7 @@ body{
 .main-area .top-bar .manu-area
 {
     background-color: #06A39A;
+    width: 200px;
     //height: 80px;
     //padding: 10px 30px;
     height: 48px;
@@ -92,20 +93,18 @@ body{
 .main-area .top-bar .manu-area .menu-items
 {
     display:flex;
-    padding: 10px 10px;
-   
-    
+    padding: 10px 15px;   
 }
 
 .main-area .top-bar .manu-area .menu-items li
 {
   list-style: none;
   //padding: 30px 10px;
-  width: 60px;
+  //width: 60px;
  
 }
 
-//.main-area .top-bar .manu-area .menu-items .center-item
+.main-area .top-bar .manu-area .menu-items .center-item
 {
     margin: 0px 20px;
 }
@@ -565,6 +564,14 @@ body{
     text-align: justify;
 }
 
+@media only screen and (max-width: 992px)
+{
+    .main-area .top-bar .menu-and-Call
+    {
+        display: block;
+        
+    }
+}
 
 @media only screen and (max-width: 768px)
 {
