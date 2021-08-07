@@ -149,6 +149,11 @@ body{
     font-size: 17px;
 }
 
+.main-area .top-bar .call-area .phone a{
+    color:#06A39A;
+    font-size: 17px;
+}
+
 
 
 /*----------------------------- second green Menu Bar -------------------------*/
@@ -542,6 +547,11 @@ body{
     color:#00A198;
 }
 
+.time-section .call-side p a{
+    color:black;
+    font-weight: bold;
+}
+
 .time-section .call-side .days-7
 {
     font-size: 35px;
@@ -678,6 +688,12 @@ body{
 .main-area .footer-section .row p
 {
     font-weight: bold;
+}
+
+.main-area .footer-section .row a
+{
+    font-weight: bold;
+    color: black;
 }
 .main-area .footer-section .row p i{
     font-size: 15px;
