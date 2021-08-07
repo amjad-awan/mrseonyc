@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Play', sans-serif;
+    
 }
 
 
@@ -199,7 +200,7 @@ body{
     position: relative;
     background-image: url("image/1.jpg");
     width: 100%;
-    height:100vh;
+    height:120vh;
     //padding:100px 0px;
     background-size: cover;
     margin-top: -15px;
@@ -219,6 +220,7 @@ body{
 .main-area .hero-section .form-section .inner-form
 {
     padding: 40px 20px;
+    margin: 30px 0xp;
 
     
 }
@@ -246,7 +248,7 @@ body{
 {
   text-align: center;
   padding: 20px 0px;
-  color:#007069;
+  color:#2c302f;
  font-family: 'Black Han Sans', sans-serif;
  font-weight: bold;
 }
@@ -395,17 +397,26 @@ body{
     background-image: linear-gradient(rgba(0,112,105,0.9),rgba(0,112,105,0.9));
 }
 
-.main-area .testimonial-section .BG-imag .text-area p
+.main-area .testimonial-section .BG-imag .text-area h2
 {
     text-align: center;
     color:#FFFFFF;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    //font-size: 30px;
     padding: 5px 0px ;
 }
 
 .main-area .testimonial-section .text-area-2 
 {
     margin-top: 30px;
+}
+
+.main-area .testimonial-section .text-area-2 h2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+
 }
 
 .main-area .testimonial-section .text-area-2 p{
@@ -416,13 +427,17 @@ body{
 .main-area .testimonial-section .end-text
 {
     background-color: #00A198;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 4px;
     width: 100%;
 }
 
-.main-area .testimonial-section .end-text p{
+.main-area .testimonial-section .end-text h2{
     padding: 20px 0px ;
     text-align: center;
-    font-size: 25px ;
+    font-size: 25px;
+    font-weight: bold;
     color: #FFFFFF;
   
 }
@@ -439,7 +454,8 @@ body{
 .main-area .testimonial-section .crousel-area .testimonial 
 {
     text-align: center;
-    color:#007069;
+    font-weight: bold;
+    color:#02716A;;
 }
 
 
@@ -460,8 +476,7 @@ body{
 
 .main-area .testimonial-section .crousel-area i
 {
-    color: #00A198;
-    ;
+    color: #27af39;
     font-size: 30px;
 }
 
@@ -473,6 +488,8 @@ body{
 .main-area .testimonial-section .crousel-area .carousel-inner h2
 {
     margin: 10px 0px ;
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -557,12 +574,182 @@ body{
 
 .offer-section .offer-card .details-section h2{
     color: black;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .offer-section .offer-card .details-section p{
     text-align: justify;
 }
+
+
+
+/*------------------------------- Video Section -----------------------------*/
+
+
+.main-area .video-scetion
+{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+
+
+
+.main-area .video-scetion iframe
+{
+    width: 100% !important;
+}
+
+
+.main-area .video-scetion .end-text
+{
+    background-color: #00A198;
+    width: 100%;
+    margin-top: -7px;
+}
+
+
+.main-area .video-scetion .video-scetion-card .end-text
+{
+    background-color: #00A198;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+
+.main-area .video-scetion .end-text h2{
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+  
+}
+
+.main-area .video-scetion h2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    //text-align: justify;
+    //text-align: center;
+}
+
+/*-------------------------------------- foooter section -------------------------------------------*/
+
+
+.main-area .footer-section
+{
+    width: 100%;
+    background-color: #00A198;
+}
+
+.main-area .footer-section .row
+{
+    padding: 80px 0px;
+}
+
+.main-area .footer-section h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-area .footer-section .row .col-sm-12
+{
+    display: block;
+}
+
+.main-area .footer-section .row .contact .contact-email
+{
+
+    line-height: 2px;
+    padding-top:10px
+}
+
+.main-area .footer-section .row .contact p
+{
+    margin-bottom: 8px;
+}
+
+
+.main-area .footer-section .row p
+{
+    font-weight: bold;
+}
+.main-area .footer-section .row p i{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.main-area .footer-section iframe
+{
+    width: 100% !important;
+    border: 3px solid #036903 !important;
+
+
+}
+
+/*------------------------------ last footer section------------------------------*/
+.main-area .last-footer
+{
+    width: 100%;
+    background-color: #F2F3F8;
+
+}
+
+.main-area .last-footer .row
+{
+    padding: 15px 0px;
+}
+
+.main-area .last-footer .row ul
+{
+    display: flex;
+}
+
+.main-area .last-footer .row ul li
+{
+    list-style: none;
+    //margin: 10px;
+}
+
+.main-area .last-footer .row ul li img
+{
+    width: 80px;
+    height: 60px;
+}
+
+.last-footer .right-images
+{
+    display: flex;
+  flex-wrap:wrap;
+}
+
+/*------------------------------ Copy right section-------------------------------------------------*/
+.main-area .copy-right-footer
+{
+    width: 100%;
+}
+.main-area .copy-right-footer .copy-right-text
+{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.main-area .copy-right-footer .copy-right-text a
+{
+    color: black;
+    font-weight: bold;
+}
+
+
 
 @media only screen and (max-width: 992px)
 {
@@ -654,5 +841,20 @@ top:50%;
 
 .card-section .card{
     margin-top: 20px;
+}
+
+.video-scetion-card
+{
+    margin-top: 20px;
+
+}
+.footer-section .footer-section-card
+{
+    margin-top: 20px;
+}
+.last-footer .right-images
+{
+    display: flex;
+  flex-wrap:wrap;
 }
 }
