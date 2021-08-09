@@ -30,10 +30,7 @@ body{
     padding: 10px 10px;
     
 }
-//.main-area .top-bar .logo-area
-{
-    display: flex;
-}
+
 
 .main-area .top-bar .logo-area .logo p i
 {
@@ -61,12 +58,7 @@ body{
     font-family: Impact, fantasy;
     font-size: 20px;
 }
-//.main-area .top-bar .time .p-city,.main-area .top-bar .time .hr-24
-{
-    margin-top: -10px;
-    margin-bottom: -10px;
-    
-}
+
 
 .main-area .top-bar .time .hr-24
 {
@@ -104,8 +96,7 @@ body{
 .main-area .top-bar .manu-area .menu-items li
 {
   list-style: none;
-  //padding: 30px 10px;
-  //width: 60px;
+ 
  
 }
 
@@ -116,16 +107,15 @@ body{
  
 .main-area .top-bar .manu-area .menu-items li a
 {
-    //position: relative;
+    
     color:#EEFCF1;
     font-size: 12px;
     display:flex;
     justify-content:center;
     text-align:center
    
-    //font-weight: bold;
     text-decoration: none;
-    //padding: 30px 0px;
+
    
 }
 
@@ -168,7 +158,7 @@ body{
 
     width: 100%;
     background-color: #06A39A;
-    //border: 1px solid red;
+    
    
     
 }
@@ -210,7 +200,6 @@ body{
     background-image: url("image/main.jpg");
     width: 100%;
     height:110vh;
-    //padding:100px 0px;
     background-size: cover;
     background-position:center;
     margin-top: -16px;
@@ -294,11 +283,9 @@ body{
 {
     
     
-    //position: relative;
-    //display: block;
+
     background-color: #FFFFFF;
     border-radius: 20px !important;
-    //height: 250px;
     padding: 40px 10px;
     
 }
@@ -308,24 +295,16 @@ body{
     background-color: #007069;
     width: 100px;
     height:100px;
-    //position: absolute;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top:20px;
     margin-bottom:auto;
-    //top:20%;
-        //left:35%;
         transform: rotate(50deg);
         box-shadow: -10px -10px #00A198;
-        //transform: translate(-50%,-50%);
 }
 
-//.main-area .card-section .row .white-area .ticket 
-{
-    position: relative;
-}
 
 .main-area .card-section .row .white-area .ticket p
 {
@@ -337,28 +316,16 @@ body{
     margin-top: auto;
     margin-bottom: auto;
     justify-content: center;
-    //position: absolute;
-    //top:35%;
-    //left:35%;
-    //top:20%;
-    //left:28%;
     text-align: center;
-    //transform: translate(-50%,-50%);
     transform: rotate(-50deg);
     
 }
 
-//.main-area .card-section .row .white-area
-{
-    position: relative;
-}
+
 
 .main-area .card-section .row .white-area h3{
-    //position: absolute;
-    //left: 10%;
-    //right: 10%;
+   
     text-align: center;
-    //bottom: 5%;
     margin-top:50px;
     font-weight:bold;
    
@@ -414,7 +381,6 @@ body{
     color:#FFFFFF;
     font-size: 25px;
     font-weight: bold;
-    //font-size: 30px;
     padding: 5px 0px ;
 }
 
@@ -650,8 +616,6 @@ body{
     color: black;
     font-size: 25px;
     font-weight: bold;
-    //text-align: justify;
-    //text-align: center;
 }
 
 /*-------------------------------------- foooter section -------------------------------------------*/
@@ -736,7 +700,6 @@ body{
 .main-area .last-footer .row ul li
 {
     list-style: none;
-    //margin: 10px;
 }
 
 .main-area .last-footer .row ul li img
@@ -831,15 +794,6 @@ body{
     display: block;
     
 }
-
-
-//.main-area .top-bar .manu-area
-{
-   
-    margin-right:auto;
-
-}
-
 
  
 .main-area .top-bar .manu-area .menu-items li a
